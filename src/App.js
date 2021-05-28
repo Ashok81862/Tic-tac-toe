@@ -1,6 +1,7 @@
 import React , {useState, useEffect}from 'react'
 import './App.css'
 import Square from './Square'
+import {Pattern } from './Pattern'
 
 function App() {
     const [board, setBoard] = useState(["","","","","","","","","",]);
